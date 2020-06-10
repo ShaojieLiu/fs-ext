@@ -1,0 +1,22 @@
+{
+  "name": "fs-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaojieLiu/fs-ext.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaojieLiu/fs-ext/issues"
+  },
+  "homepage": "https://github.com/ShaojieLiu/fs-ext#readme",
+  "dependencies": {
+    "@types/node": "^14.0.13"
+  }
+}
