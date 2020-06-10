@@ -53,7 +53,7 @@ const isDir = p => {
 const getClassName = p => {
   const ext = path.extname(p);
   const noExt = p.split(ext)[0];
-  return noExt.split(path.sep).join('_');
+  return noExt.split(path.sep).slice(-1)[0];
 };
 
 export { getAllFiles };
